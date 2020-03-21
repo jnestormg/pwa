@@ -1,0 +1,116 @@
+/* estilos generales*/
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background: white;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+.container{
+    width: 85%;
+    margin: 0px auto;
+}
+/*cabecera*/
+#main-header{
+    background: white;
+    height: 100px;
+    line-height: 85px;
+}
+#logo{
+    width: 63%;
+    float: left;
+}
+#logo h1{
+    font-weight: bold;
+    font-size: 25px;
+    color:#FB314e;
+}
+#menu{
+    width: 380px;
+    float: left;
+}
+#menu ul li{
+    list-style: none;
+    float: left;
+    margin-left: 19px;
+    margin-right: 19px;
+}
+#menu ul li a{
+    color: black;
+    
+}
+#menu ul li a:hover{
+    color:red;
+}
+/*slider*/
+#slider{
+    height: 300px;
+    background: #FB314e;
+
+}
+#slider h2{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    line-height: 290px;
+    text-shadow: 0px 0px 6px black;
+}
+footer{
+    background: gray;
+}
+/*media queries*/
+@media all and (max-width:700px){
+    .container{
+        width: 95%;
+    }
+}
+/*por punto de corte*/
+@media (max-width:1085px){
+    #main-header{
+        height: 70px;
+        line-height: 65px;
+    }
+    #logo{
+        width: 60%;
+    }
+    /*
+    #logo{
+        width: 227px;
+        float: none;
+        margin: 0px auto;
+    }
+    #menu{
+        float: none;
+        margin: 0px auto;
+    }*/
+}
+@media (max-width:999px){
+    #logo{
+        width: 227px;
+        float: none;
+        margin: 0px auto;
+    }
+    #menu{
+        float: none;
+        margin: 0px auto;
+    }
+}
+@media (max-width:307px){
+    #slider h2{
+        font-size: 15px;
+    }
+    #menu{
+        width: 100%;
+        text-align: center;
+    }
+    #menu ul li{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}

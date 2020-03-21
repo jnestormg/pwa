@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!--codificacion-->
+        <meta charset="utf-8"/>
+        <!--titulo-->
+        <title>Mi primer PWA</title>
+        <!--view port responsive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <!--icono de la web-->
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+        <!--color de la aplicacion pwa-->
+        <meta name="theme-color" content="#FB314E" />
+        <!--optimizacion para movil-->
+        <meta name="MobileOptimized" content="width" />
+        <meta name="HandheldFriendly" content="true" />
+        <!--pwa para dispositivos apple-->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <!--icono apple-->
+        <link rel="apple-touch-icon" href="img/favicon.png"/>
+        <link rel="apple-touch-startup-image" href="img/favicon.png"/>
+        <!--configuracion general pwa pwa-->
+        <link rel="manifest" href="manifest.json"/>
+
+
+        <!--hoja de stilos-->
+        <link rel="stylesheet" href="css/styles.css">
+        <!--script serviceworker-->
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <header id="main-header">
+            <div class="container">
+                <div id="logo">
+                   <h1>Nestor Meneses García</h1> 
+                </div>
+                 <div id="menu">
+                    <ul>
+                        <li>
+                            <a href="#main-header">Inicio</a> 
+                        </li>
+                        <li>
+                            <a href="#services">Servicios</a> 
+                        </li>
+                        <li>
+                            <a href="#">Videos </a> 
+                        </li>
+                    </ul>
+                </div><!--end menu-->
+            </div><!--end cointainer-->
+        </header>
+        <div class="clearfix"></div>
+        <div id="slider">
+            <div class="container">
+                <h2>Primera PWA</h2>
+            </div>
+        </div><!--cierra slider-->
+        <div id="services">
+            <div class="container">
+            <h2 class="subheader">Servicios</h2>
+            <div class="service">
+                <img src="img/1.png">
+                <h3>Desarrollo WEB</h3>
+                <p>
+                    Se ofrecen servicio de Desarrollo WEB
+                </p>
+            </div>
+            <div class="service">
+                <img src="img/2.png">
+                <h3>Diseño WEB</h3>
+                <p>
+                  Se ofrecen servicio de Diseño WEB
+                </p>
+            </div>
+            <div class="service">
+                <img src="img/3.png">
+                    <h3>Mentoria WEB</h3>
+                    <p>
+                       Se ofrecen servicio de Mentoria WEB
+                    </p>
+            </div>
+        </div><!--cierra container--> 
+        </div><!--cierra servicios-->
+        <footer>
+            <div class="container">
+                <h2 class="subheader">Contacto</h2>
+                <p>
+                    Contactame en las redes sociales
+                </p>
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="img/twitter.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                            <a href="">
+                                <img src="img/facebook.png" alt="">
+                            </a>
+                    </li>
+                    <li>
+                            <a href="">
+                                <img src="img/instagram.png" alt="">
+                            </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
